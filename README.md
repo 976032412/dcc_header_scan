@@ -12,11 +12,11 @@ pub.dev地址:[fly](https://pub.dev/packages/dcc_header_scan)
 ```dart
   dcc_header_scan:
     git:
-      url: git@github.com:976032412/dcc_header_scan.git    
+      url: https://github.com/976032412/dcc_header_scan.git    
 ```
 添加包到`pubspec.yaml`文件中
 ```dart
-  flutter pub get   package
+  flutter pub get
 ```
 
 
