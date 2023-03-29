@@ -1,3 +1,5 @@
+import 'dart:html_common';
+
 import 'package:flutter/material.dart';
 import 'dart:async';
 
@@ -61,7 +63,9 @@ class _MyAppState extends State<MyApp> {
         ),
         body:GestureDetector(
           child:  Center(
-          child: Text('Running on: $_platformVersion\n'),
+          child: Container(
+            child:Text('Running on: $_platformVersion\n'),
+          )
         ),
         ),
       ),
